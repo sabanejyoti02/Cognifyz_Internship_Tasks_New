@@ -1,0 +1,35 @@
+.heading{
+  display: flex;
+  justify-content: center;
+  background-color: #ddd;
+}
+
+.heading:hover{
+  transform: scale(1.2);
+  color: red;
+  transition: transform 0.3s linear;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: black;
+}
+
+.gallery img {
+  width: 400px; /* Set the width of the images as needed */
+  height: 300px;
+  border: 2px solid #ddd;
+  border-radius: 30%;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.gallery img:hover {
+  filter:hue-rotate(360);
+  transform: scale(1.1);
+  border: 5px solid rgb(1, 1, 44);
+  border-radius: 10px;
+}
