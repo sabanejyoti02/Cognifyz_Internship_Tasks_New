@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style1.css">  
+</head>
+<body class="calbody">
+    <div class="caldiv">
+        <b style="color: black; font-size: 30px;">Calculator</b>
+        <div>
+            <input type="text" class="calinput" name="display1" id="inputexp" placeholder="Enter">
+            <input id="output" class="calinput" placeholder="Result">
+        </div>
+        <div>
+            <input type="button" class="calbutton" value="+" onclick="document.getElementById('inputexp').value += '+'">
+            <input type="button" class="calbutton" value="-" onclick="document.getElementById('inputexp').value += '-'">
+            <input type="button" class="calbutton" value="*" onclick="document.getElementById('inputexp').value += '*'">
+            <input type="button" class="calbutton" value="/" onclick="document.getElementById('inputexp').value += '/'">
+        </div>
+        <div>
+            <input type="button" class="calbutton" id="one" value="1" onclick="document.getElementById('inputexp').value += '1'">
+
+            <!-- <input type="button" class="calbutton" id="one"  value="1" onclick="display1.value = '1'"> -->
+            <input type="button" class="calbutton" value="2" onclick="document.getElementById('inputexp').value += '2'">
+            <input type="button" class="calbutton" value="3" onclick="document.getElementById('inputexp').value += '3'">
+        </div>
+        <div>
+            <input type="button" class="calbutton" value="4" onclick="document.getElementById('inputexp').value += '4'">
+            <input type="button" class="calbutton" value="5" onclick="document.getElementById('inputexp').value += '5'">
+            <input type="button" class="calbutton" value="6" onclick="document.getElementById('inputexp').value += '6'">
+        </div>
+        <div>
+            <input type="button" class="calbutton" value="7" onclick="document.getElementById('inputexp').value += '7'">
+            <input type="button" class="calbutton" value="8" onclick="document.getElementById('inputexp').value += '8'">
+            <input type="button" class="calbutton" value="9" onclick="document.getElementById('inputexp').value += '9'">
+        </div>
+        <div>
+            <input type="button" class="calbutton" value="0" onclick="document.getElementById('inputexp').value += '0'">
+            <input type="button" class="calbutton" value="=" onclick="document.getElementById('output').value = eval(document.getElementById('inputexp').value)">
+            <input type="button" class="calbutton" value="AC" onclick="document.getElementById('inputexp').value = '',document.getElementById('output').value = ''">
+        </div>     
+    </div>
+</body>
+</html>
