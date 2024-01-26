@@ -1,0 +1,185 @@
+*{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+}
+
+body{
+    color:white;
+    background-color:#984447;
+}
+
+.navbar{
+    background-color: #0D1317;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+   
+}
+
+h1{
+    display: inline;
+}
+
+h1:hover{
+    border: 1px solid white;
+}
+
+.hero{
+    color: white;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 400px;
+    height: 270px;
+}
+
+.i1{
+    border: 2px solid transparent;
+    background-image: url("image.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.i1:hover{
+    border: 4px solid rgb(243, 208, 8);
+    animation: myName 2s ease-in-out 1s ;
+    background-image: url("image2.jpg");
+    transition: background-image 1s 0.5s linear;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 20px;
+    font-size: 20px;
+}
+
+a:active{
+    color: blue;
+    border: 2px solid rgb(243, 208, 8);
+    border-radius: 2px;
+}
+
+input{
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    border-radius: 4px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    background-color: rgb(243, 208, 8);
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+button:active{
+    background-color:rgb(243, 180, 8) ; 
+}
+
+.newForm{
+    width: 500px;
+    background-color: #CB793A;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: black;
+    margin-top: 0px;
+    border-radius: 20px;
+}
+
+#formbody{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-top: 100px;
+}
+
+.inputclass{
+    background-color: rgb(247, 238, 238);
+    border-radius: 5px;
+}
+
+.inputclass:hover{
+    background-color: rgb(165, 211, 252);
+}
+
+h2{
+    text-align: center;
+}
+
+#subbutton:hover{
+    background-color:rgb(243, 180, 8) ;
+}
+
+.ColorButton{
+    width: 300px;
+    height: 100px;
+    color: blueviolet;
+    text-decoration: bold;
+    font-size: 20px;
+    transition: background-color 1s 0.5s linear; /* Apply transition to background-color property */
+    transform: translate(20px);
+}
+
+.changecolor{
+   display: flex;
+   justify-content:center;
+   margin-top: 200px;
+}
+
+.caldiv{
+    background-color:#E3D3E4;
+    width: 500px;
+    height: 500px; 
+    text-align: center; 
+    padding-top: 50px;
+    border-radius: 50px;
+    margin-top: 50px;
+}
+    
+.calbody{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+.calbutton{
+    color: black;
+    text-decoration: bold;
+    font-size: 20px;
+    font-weight: 100px;
+    width: 80px;
+    height: 40px;
+    background-color: rgb(243, 208, 8);
+    font-size: 18px;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.calinput{
+    color: white;
+    font-size: 20px;
+}
